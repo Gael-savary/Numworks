@@ -1,0 +1,1575 @@
+GUIDE DE RÉFÉRENCE — NUMWORKS
+Encyclopédie pratique, technique et dossier d’archives
+Édition enrichie • Novembre 2026
+
+SOMMAIRE
+--------
+1. QU'EST-CE QU'UNE CALCULATRICE NUMWORKS ?
+2. LE SYSTÈME EPSILON ET LES APPLICATIONS
+3. LES TOUCHES ET LA NAVIGATION
+1. Ouvrir Calculs depuis l'accueil.
+2. Saisir une expression.
+3. Appuyer sur EXE pour obtenir le résultat.
+4. Utiliser l'historique pour retrouver les calculs précédents.
+4. RECHARGER ET CONNECTER LA NUMWORKS À UN ORDINATEUR
+1. Allumer la calculatrice.
+2. La relier directement à l'ordinateur avec un câble USB de données.
+3. Ouvrir un navigateur compatible, de préférence Google Chrome ou Microsoft Edge lorsque le site utilise WebUSB.
+4. Ouvrir le site ou l'outil d'installation souhaité.
+5. Cliquer sur Connecter / Connect.
+6. Dans la fenêtre du navigateur, sélectionner la calculatrice puis autoriser la connexion.
+7. Attendre la fin du transfert avant de débrancher.
+5. METTRE À JOUR LE LOGICIEL OFFICIEL
+1. Sur l'ordinateur, ouvrir le site officiel NumWorks : https://my.numworks.com/
+2. Se connecter à son compte ou en créer un.
+3. Ouvrir le menu du compte puis la rubrique de mise à jour.
+4. Brancher la calculatrice en USB.
+5. Cliquer sur le bouton de mise à jour et suivre les indications.
+6. Attendre la fin complète de l'opération.
+6. CRÉER UN SCRIPT PYTHON DIRECTEMENT SUR LA CALCULATRICE
+1. Ouvrir l'application Python.
+2. Choisir « Ajouter un script » en bas de la liste.
+3. Valider avec OK.
+4. Donner un nom au script.
+5. Écrire le programme dans l'éditeur.
+6. Lancer le script avec la commande d'exécution proposée à l'écran.
+7. Lire le résultat dans la console.
+7. CRÉER ET ENVOYER UN SCRIPT DEPUIS UN ORDINATEUR
+1. Aller sur https://my.numworks.com/
+2. Se connecter.
+3. Ouvrir « Mes scripts ».
+4. Choisir « Nouveau script ».
+5. Écrire ou coller le code Python.
+6. Utiliser l'outil de test en ligne lorsqu'il est disponible.
+7. Enregistrer le script.
+8. Brancher la calculatrice en USB.
+9. Sélectionner le script puis cliquer sur « Envoyer sur ma calculatrice ».
+10. Autoriser la connexion USB dans le navigateur et attendre la fin du transfert.
+8. LES MODULES PYTHON UTILES
+9. INSTALLER UN THÈME : CE QU'IL FAUT SAVOIR
+1. Le thème officiel d'Epsilon.
+2. Le fond d'écran ou la personnalisation proposée par un système alternatif.
+3. Un firmware personnalisé.
+10. INSTALLER UN SYSTÈME ALTERNATIF OU UN FIRMWARE PERSONNALISÉ
+11. CRÉER SON PROPRE THÈME OU PERSONNALISER L'INTERFACE
+12. INSTALLER DES APPLICATIONS EXTERNES (.NWA)
+1. Télécharger le fichier .nwa depuis la page officielle ou le dépôt du développeur.
+2. Vérifier que l'application est compatible avec le modèle et le système.
+3. Brancher la calculatrice à l'ordinateur avec un câble USB de données.
+4. Allumer la calculatrice et ouvrir la page d'installation NumWorks prévue pour les applications.
+5. Cliquer sur Connect / Connecter.
+6. Sélectionner la calculatrice dans la fenêtre du navigateur.
+7. Choisir le fichier .nwa.
+8. Ajouter les éventuels fichiers de données demandés par l'application.
+9. Cliquer sur Install / Installer.
+10. Attendre la fin du transfert avant de débrancher.
+11. Revenir à l'accueil et chercher l'application, souvent vers la fin de la liste.
+13. INSTALLER DES JEUX
+1. Télécharger le fichier .py depuis une source fiable.
+2. L'envoyer avec le compte NumWorks ou un outil compatible.
+3. Ouvrir Python sur la calculatrice.
+4. Sélectionner le jeu dans la liste.
+5. Lancer le script.
+14. CRÉER SON PROPRE JEU OU SA PROPRE APPLICATION
+15. LES DIFFÉRENTS FORMATS DE FICHIERS
+16. MODE EXAMEN, RESET ET SAUVEGARDE
+1. sauvegarder les scripts sur son compte ou sur l'ordinateur ;
+2. conserver une copie des fichiers .py et .nws ;
+3. noter le modèle et la version du système ;
+4. lire les avertissements de l'installateur ;
+5. ne pas lancer de reset sans raison.
+17. PROBLÈMES COURANTS ET SOLUTIONS
+18. CONSEILS DE SÉCURITÉ
+19. SITES ET RESSOURCES UTILES
+20. RÉSUMÉ : QUELLE MÉTHODE UTILISER ?
+21. DOSSIER D'ARCHIVES : IDENTIFICATION ET ÉVOLUTION DES MODÈLES
+1. Allumer la calculatrice.
+2. Ouvrir Paramètres.
+3. Aller dans « À propos ».
+4. Relever le modèle, la version logicielle et le numéro de série affichés, selon le modèle et la version.
+5. Comparer ces informations à la référence imprimée au dos.
+22. ARCHITECTURE PHYSIQUE : COMMENT LA CALCULATRICE EST CONSTRUITE
+1. La coque supérieure et la coque inférieure.
+2. Le clavier à touches mobiles.
+3. L'écran LCD couleur.
+4. La carte électronique principale (PCB).
+5. Le microcontrôleur, qui exécute le système.
+6. Les mémoires non volatiles.
+7. La batterie lithium-polymère.
+8. Le circuit de charge et de régulation d'alimentation.
+9. Le connecteur USB.
+10. Les composants de protection électrique.
+11. La LED RGB de signalisation.
+12. Les éléments mécaniques : supports, clips, entretoises et protections.
+23. CONTRAINTES PHYSIQUES ET LIMITES D'UTILISATION
+24. ENTRETIEN, DIAGNOSTIC ET DURÉE DE VIE
+25. MODE EXAMEN ET CONSÉQUENCES SUR LE MATÉRIEL
+26. RÉVISIONS MATÉRIELLES, RÉPARABILITÉ ET DOCUMENTATION
+27. RESSOURCES TECHNIQUES ET SOURCES D'ARCHIVES
+28. FICHE D'IDENTITÉ À REMPLIR POUR UNE CALCULATRICE PRÉCISE
+29. RÉPERTOIRE INTERNET ÉTENDU : ARCHIVES ET RESSOURCES
+1. modèle ;
+2. numéro de série (privé) ;
+3. version du logiciel ;
+4. numéro de PCB ;
+5. date d'achat ou de première mise en service ;
+6. photos de l'étiquette et de l'appareil.
+1. identifier le modèle exact ;
+2. relever la version Epsilon ;
+3. relever la révision PCB si la procédure le demande ;
+4. identifier le bootloader actuellement installé ;
+5. sauvegarder les données ;
+6. lire la procédure spécifique au projet ;
+7. ne jamais flasher une adresse mémoire trouvée dans un tutoriel d'un autre modèle.
+30. GLOSSAIRE TECHNIQUE
+31. RECTIFICATION ET PRÉCISION DES INFORMATIONS D'ARCHIVES
+
+COMMENT UTILISER CE GUIDE
+------------------------
+Le document est organisé en chapitres thématiques. Les liens Internet sont écrits en toutes lettres pour pouvoir être copiés dans un navigateur.
+Les informations officielles, les informations communautaires et les précautions techniques sont distinguées dans le texte.
+Avant toute installation ou modification du système, vérifiez toujours le modèle exact et la version logicielle de votre calculatrice.
+
+============================================================
+CORPS DU GUIDE
+============================================================
+
+
+▶ 1. QU'EST-CE QU'UNE CALCULATRICE NUMWORKS ?
+───────────────────────────────────────────────
+
+
+La NumWorks est une calculatrice scientifique graphique conçue principalement pour les élèves du collège et du lycée. Elle permet de faire des calculs, de tracer des fonctions, de résoudre des équations, d'étudier des statistiques et des probabilités, mais aussi de programmer en Python.
+
+Elle se distingue des calculatrices classiques par son interface organisée en applications. On peut la comparer à un petit appareil informatique spécialisé : chaque application sert à une tâche précise. Son système logiciel principal s'appelle Epsilon.
+
+La calculatrice possède notamment :
+- un écran couleur ;
+- un clavier avec touches numériques, scientifiques et directionnelles ;
+- une batterie rechargeable ;
+- un port USB pour la recharge, les mises à jour et le transfert de données ;
+- une mémoire interne pour les réglages, les données, les scripts et, selon le modèle et le logiciel, les applications externes.
+
+Les caractéristiques exactes (mémoire, connectique, compatibilité) dépendent du modèle matériel. Les modèles graphiques courants comprennent notamment les N0110, N0115 et N0120. Il faut vérifier la référence inscrite au dos de la calculatrice avant d'installer un logiciel ou une application.
+
+La NumWorks n'est pas un ordinateur généraliste : elle ne fonctionne pas comme un PC ou un téléphone. Elle ne permet pas d'installer librement n'importe quel logiciel Windows, Android ou Linux. Les programmes doivent être compatibles avec son matériel et son système.
+
+▶ 2. LE SYSTÈME EPSILON ET LES APPLICATIONS
+─────────────────────────────────────────────
+
+
+Epsilon est le système d'exploitation officiel de la NumWorks. Il gère l'écran, le clavier, les calculs, les applications et les échanges USB.
+
+Le menu d'accueil présente les applications disponibles. On revient généralement à ce menu avec la touche HOME (maison). On se déplace avec les flèches et on ouvre l'application sélectionnée avec OK.
+
+Selon la version d'Epsilon, le modèle et le logiciel installé, on peut retrouver notamment :
+
+- Calculs : opérations simples et avancées, fractions, puissances, racines, trigonométrie, nombres complexes et autres fonctions mathématiques.
+- Grapheur : représentation graphique de fonctions, tableaux de valeurs et étude de courbes.
+- Équations : résolution d'équations et de systèmes.
+- Suites : définition et étude de suites numériques.
+- Régressions : ajustement de données par des modèles mathématiques.
+- Statistiques : moyenne, médiane, écart-type, tableaux et graphiques statistiques.
+- Probabilités : calculs de probabilités et lois usuelles.
+- Python : création et exécution de programmes.
+- Éléments, Inférence et Finance : outils supplémentaires présents dans certaines versions graphiques.
+- Paramètres : réglages de la calculatrice, de la langue, des angles, de l'affichage et du mode examen.
+
+La liste exacte peut varier avec la version du logiciel. Une mise à jour peut ajouter, modifier ou réorganiser des fonctions.
+
+▶ 3. LES TOUCHES ET LA NAVIGATION
+───────────────────────────────────
+
+
+Les touches directionnelles servent à déplacer le curseur ou la sélection.
+OK sert à valider et à ouvrir un élément.
+HOME permet de revenir à l'accueil des applications.
+BACK (retour) permet généralement de revenir à l'écran précédent.
+EXE sert notamment à exécuter un calcul ou une commande.
+La touche POWER permet d'allumer ou d'éteindre la calculatrice.
+
+Les touches de fonctions, de parenthèses, de fractions, de puissances et de trigonométrie permettent de saisir rapidement des expressions scientifiques. Les fonctions exactes des touches sont indiquées sur leur inscription ou leur couleur.
+
+Dans l'application Calculs :
+
+▶ 1. OUVRIR CALCULS DEPUIS L'ACCUEIL.
+───────────────────────────────────────
+
+▶ 2. SAISIR UNE EXPRESSION.
+─────────────────────────────
+
+▶ 3. APPUYER SUR EXE POUR OBTENIR LE RÉSULTAT.
+────────────────────────────────────────────────
+
+▶ 4. UTILISER L'HISTORIQUE POUR RETROUVER LES CALCULS PRÉCÉDENTS.
+───────────────────────────────────────────────────────────────────
+
+
+Dans les applications, les menus contextuels et les boîtes à outils donnent accès à des fonctions supplémentaires. Il est utile de parcourir les menus avec les flèches plutôt que de chercher chaque fonction au clavier.
+
+▶ 4. RECHARGER ET CONNECTER LA NUMWORKS À UN ORDINATEUR
+─────────────────────────────────────────────────────────
+
+
+La calculatrice se recharge par son port USB. Pour la recharger, relier le câble compatible au port de la calculatrice puis à un port USB d'ordinateur ou à un chargeur USB adapté.
+
+Pour transférer des scripts, installer certaines applications ou mettre à jour le système, il faut une connexion de données USB. Tous les câbles USB ne se valent pas : certains câbles ne transportent que l'électricité. Si l'ordinateur ne détecte pas la calculatrice, essayer un autre câble connu pour transférer des fichiers.
+
+Procédure générale de connexion :
+
+▶ 1. ALLUMER LA CALCULATRICE.
+───────────────────────────────
+
+▶ 2. LA RELIER DIRECTEMENT À L'ORDINATEUR AVEC UN CÂBLE USB DE DONNÉES.
+────────────────────────────────────────────────────────────────────────
+
+▶ 3. OUVRIR UN NAVIGATEUR COMPATIBLE, DE PRÉFÉRENCE GOOGLE CHROME OU MICROSOFT EDGE LORSQUE LE SITE UTILISE WEBUSB.
+────────────────────────────────────────────────────────────────────────
+
+▶ 4. OUVRIR LE SITE OU L'OUTIL D'INSTALLATION SOUHAITÉ.
+─────────────────────────────────────────────────────────
+
+▶ 5. CLIQUER SUR CONNECTER / CONNECT.
+───────────────────────────────────────
+
+▶ 6. DANS LA FENÊTRE DU NAVIGATEUR, SÉLECTIONNER LA CALCULATRICE PUIS AUTORISER LA CONNEXION.
+────────────────────────────────────────────────────────────────────────
+
+▶ 7. ATTENDRE LA FIN DU TRANSFERT AVANT DE DÉBRANCHER.
+────────────────────────────────────────────────────────
+
+
+La NumWorks ne se comporte pas forcément comme une clé USB classique : il est normal qu'aucun nouveau lecteur n'apparaisse dans l'Explorateur Windows. Les transferts passent généralement par une page web ou un outil spécialisé.
+
+Si la connexion échoue :
+- vérifier que la calculatrice est allumée ;
+- essayer un autre port USB ;
+- essayer un autre câble de données ;
+- fermer les autres onglets ou applications qui pourraient utiliser la calculatrice ;
+- utiliser Chrome ou Edge à jour ;
+- débrancher puis rebrancher la calculatrice ;
+- vérifier que le navigateur a bien autorisé l'accès USB.
+
+Ne jamais débrancher pendant une mise à jour ou une installation en cours.
+
+▶ 5. METTRE À JOUR LE LOGICIEL OFFICIEL
+─────────────────────────────────────────
+
+
+Les mises à jour officielles d'Epsilon sont proposées par NumWorks. Elles peuvent corriger des problèmes et apporter de nouvelles fonctions.
+
+Méthode habituelle :
+
+▶ 1. SUR L'ORDINATEUR, OUVRIR LE SITE OFFICIEL NUMWORKS : HTTPS://MY.NUMWORKS.COM/
+────────────────────────────────────────────────────────────────────────
+
+▶ 2. SE CONNECTER À SON COMPTE OU EN CRÉER UN.
+────────────────────────────────────────────────
+
+▶ 3. OUVRIR LE MENU DU COMPTE PUIS LA RUBRIQUE DE MISE À JOUR.
+────────────────────────────────────────────────────────────────
+
+▶ 4. BRANCHER LA CALCULATRICE EN USB.
+───────────────────────────────────────
+
+▶ 5. CLIQUER SUR LE BOUTON DE MISE À JOUR ET SUIVRE LES INDICATIONS.
+──────────────────────────────────────────────────────────────────────
+
+▶ 6. ATTENDRE LA FIN COMPLÈTE DE L'OPÉRATION.
+───────────────────────────────────────────────
+
+
+Il faut choisir le bon type de calculatrice et ne pas installer un logiciel destiné à un autre modèle.
+
+Avant une mise à jour importante, sauvegarder les scripts et les données utiles. Ne pas couper l'alimentation de l'ordinateur, fermer le navigateur ou débrancher le câble pendant l'opération.
+
+Pour connaître son modèle et sa version :
+- regarder la référence au dos de la calculatrice ;
+- ouvrir Paramètres ;
+- consulter la rubrique À propos / Informations, selon la version.
+
+▶ 6. CRÉER UN SCRIPT PYTHON DIRECTEMENT SUR LA CALCULATRICE
+─────────────────────────────────────────────────────────────
+
+
+L'application Python permet de programmer de petits outils, exercices, calculatrices spécialisées, animations et jeux.
+
+Sur les versions officielles documentées, l'environnement Python est une version adaptée de MicroPython. Il ne s'agit pas d'un Python de PC complet : certaines bibliothèques et fonctions habituelles peuvent être absentes ou différentes.
+
+Pour créer un script :
+
+▶ 1. OUVRIR L'APPLICATION PYTHON.
+───────────────────────────────────
+
+▶ 2. CHOISIR « AJOUTER UN SCRIPT » EN BAS DE LA LISTE.
+────────────────────────────────────────────────────────
+
+▶ 3. VALIDER AVEC OK.
+────────────────────────────
+
+▶ 4. DONNER UN NOM AU SCRIPT.
+───────────────────────────────
+
+▶ 5. ÉCRIRE LE PROGRAMME DANS L'ÉDITEUR.
+──────────────────────────────────────────
+
+▶ 6. LANCER LE SCRIPT AVEC LA COMMANDE D'EXÉCUTION PROPOSÉE À L'ÉCRAN.
+────────────────────────────────────────────────────────────────────────
+
+▶ 7. LIRE LE RÉSULTAT DANS LA CONSOLE.
+────────────────────────────────────────
+
+
+Un script Python porte généralement l'extension .py.
+
+Exemple de programme très simple :
+
+    nom = input("Ton nom : ")
+    print("Bonjour", nom)
+
+Autre exemple :
+
+    a = float(input("Valeur de a : "))
+    b = float(input("Valeur de b : "))
+    print("Résultat :", a + b)
+
+Quelques règles importantes :
+- respecter l'indentation ;
+- mettre les deux-points après les instructions qui ouvrent un bloc (if, for, while, def) ;
+- utiliser des noms de variables simples ;
+- vérifier les parenthèses et les guillemets ;
+- tenir compte des limites de mémoire et des bibliothèques disponibles.
+
+Le nombre de scripts que l'on peut conserver dépend de la version et de l'espace disponible. La documentation officielle de certaines versions indique une limite de huit scripts dans l'application Python. Il ne faut donc pas supposer que la mémoire est illimitée.
+
+▶ 7. CRÉER ET ENVOYER UN SCRIPT DEPUIS UN ORDINATEUR
+──────────────────────────────────────────────────────
+
+
+Il est souvent plus confortable d'écrire un programme sur un clavier d'ordinateur.
+
+Méthode officielle avec le compte NumWorks :
+
+▶ 1. ALLER SUR HTTPS://MY.NUMWORKS.COM/
+─────────────────────────────────────────
+
+▶ 2. SE CONNECTER.
+────────────────────────────
+
+▶ 3. OUVRIR « MES SCRIPTS ».
+──────────────────────────────
+
+▶ 4. CHOISIR « NOUVEAU SCRIPT ».
+──────────────────────────────────
+
+▶ 5. ÉCRIRE OU COLLER LE CODE PYTHON.
+───────────────────────────────────────
+
+▶ 6. UTILISER L'OUTIL DE TEST EN LIGNE LORSQU'IL EST DISPONIBLE.
+──────────────────────────────────────────────────────────────────
+
+▶ 7. ENREGISTRER LE SCRIPT.
+─────────────────────────────
+
+▶ 8. BRANCHER LA CALCULATRICE EN USB.
+───────────────────────────────────────
+
+▶ 9. SÉLECTIONNER LE SCRIPT PUIS CLIQUER SUR « ENVOYER SUR MA CALCULATRICE ».
+────────────────────────────────────────────────────────────────────────
+
+▶ 10. AUTORISER LA CONNEXION USB DANS LE NAVIGATEUR ET ATTENDRE LA FIN DU TRANSFERT.
+────────────────────────────────────────────────────────────────────────
+
+
+Le compte NumWorks permet également de sauvegarder des scripts et de retrouver leur contenu plus tard. La rubrique d'exploration permet de découvrir des scripts partagés par d'autres utilisateurs.
+
+Autre méthode : des outils communautaires peuvent envoyer directement un fichier .py ou sauvegarder/restaurer des données. Il faut utiliser un outil reconnu et vérifier sa compatibilité avec le modèle et la version d'Epsilon.
+
+Attention aux fichiers :
+- .py : script Python ;
+- .nws : fichier de sauvegarde NumWorks, qui peut contenir plusieurs éléments ;
+- .nwa : application externe au format NumWorks ;
+- .uf2 ou autres formats de firmware : fichiers système, à ne pas confondre avec un script.
+
+Renommer simplement un fichier .py en .nws ne le transforme pas en sauvegarde valide. Chaque format a sa structure propre.
+
+▶ 8. LES MODULES PYTHON UTILES
+────────────────────────────────
+
+
+Un module est une bibliothèque qui fournit des fonctions supplémentaires. On l'utilise généralement avec import.
+
+Exemples de modules disponibles selon le système et la version :
+- math : fonctions mathématiques ;
+- cmath : nombres complexes ;
+- random : nombres pseudo-aléatoires ;
+- time : fonctions liées au temps, selon les possibilités de la version ;
+- turtle : dessin avec une tortue ;
+- kandinsky : dessin pixel par pixel sur l'écran ;
+- ion : lecture de l'état des touches ;
+- matplotlib : graphiques, dans les environnements qui le prennent en charge ;
+- numpy : calcul numérique, selon la version et les ressources disponibles.
+
+Exemple :
+
+    from math import sqrt
+    nombre = 25
+    print(sqrt(nombre))
+
+Il ne faut pas supposer que tous les modules Python disponibles sur Windows sont présents sur la NumWorks. Un programme utilisant pygame, tkinter ou des bibliothèques lourdes de PC ne fonctionnera pas automatiquement.
+
+▶ 9. INSTALLER UN THÈME : CE QU'IL FAUT SAVOIR
+────────────────────────────────────────────────
+
+
+Il faut distinguer trois choses :
+
+▶ 1. LE THÈME OFFICIEL D'EPSILON.
+───────────────────────────────────
+
+Le logiciel officiel possède une interface définie par NumWorks. Il ne propose pas nécessairement un système de thèmes complet comparable à celui d'un téléphone. On ne peut donc pas installer n'importe quel thème graphique comme un simple fichier.
+
+▶ 2. LE FOND D'ÉCRAN OU LA PERSONNALISATION PROPOSÉE PAR UN SYSTÈME ALTERNATIF.
+────────────────────────────────────────────────────────────────────────
+
+Certains systèmes communautaires, par exemple Upsilon, proposent des options supplémentaires comme des fonds d'écran et des applications externes. Les possibilités dépendent de la version et du modèle.
+
+▶ 3. UN FIRMWARE PERSONNALISÉ.
+────────────────────────────────
+
+Un firmware est le logiciel système de la calculatrice. Le remplacer ou le modifier est beaucoup plus important que changer une couleur : cela peut modifier l'interface, les applications et le fonctionnement général.
+
+Pour personnaliser l'apparence, vérifier d'abord si le système actuellement installé propose une option de fond d'écran ou de personnalisation. Si cette option n'existe pas, il ne faut pas télécharger un fichier au hasard en pensant qu'il s'agit d'un thème compatible.
+
+▶ 10. INSTALLER UN SYSTÈME ALTERNATIF OU UN FIRMWARE PERSONNALISÉ
+───────────────────────────────────────────────────────────────────
+
+
+Des projets communautaires existent autour d'Epsilon, notamment Upsilon et Omega. Ils peuvent proposer des fonctions ou des possibilités de personnalisation supplémentaires.
+
+Un firmware alternatif n'est pas un thème ordinaire. Son installation modifie le logiciel de la calculatrice. Avant de commencer :
+- identifier précisément le modèle ;
+- vérifier la compatibilité avec la version matérielle ;
+- lire la documentation officielle du projet ;
+- sauvegarder les scripts et les données ;
+- vérifier les possibilités de retour au système officiel ;
+- comprendre les risques d'une mauvaise installation.
+
+Upsilon dispose d'une documentation expliquant son installation et certaines options, dont les applications externes et les fonds d'écran. Les étapes exactes peuvent évoluer : suivre la documentation actuelle du projet plutôt qu'un ancien tutoriel vidéo.
+
+Omega est un autre projet communautaire. Les méthodes d'installation et les compatibilités dépendent du modèle et de l'état de verrouillage de la calculatrice. Ne pas tenter une procédure de déverrouillage sans avoir compris chaque étape.
+
+Important : un RESET peut effacer des données et des applications externes. Le mode examen peut également masquer ou rendre indisponibles certaines fonctions communautaires. Les effets dépendent du système installé et de sa version.
+
+▶ 11. CRÉER SON PROPRE THÈME OU PERSONNALISER L'INTERFACE
+───────────────────────────────────────────────────────────
+
+
+La possibilité de créer un thème dépend du système utilisé. Sur Epsilon officiel, il n'existe pas un éditeur universel de thèmes permettant de modifier librement toutes les couleurs et toutes les icônes.
+
+Plusieurs niveaux de personnalisation sont possibles :
+
+Niveau 1 – Fond d'écran :
+- préparer une image aux dimensions et au format acceptés par le système ;
+- vérifier la documentation du système installé ;
+- envoyer l'image avec l'outil prévu ;
+- appliquer le fond d'écran dans le menu de personnalisation.
+
+Niveau 2 – Application avec son propre style :
+- créer une application externe ;
+- dessiner son interface dans le programme ;
+- choisir ses couleurs, ses menus et ses icônes dans les limites de l'API disponible.
+Cela personnalise l'application, pas l'ensemble du système.
+
+Niveau 3 – Modifier le système :
+- récupérer les sources du projet open source concerné ;
+- installer les outils de développement demandés ;
+- modifier les ressources graphiques ou le code autorisé ;
+- compiler une version compatible ;
+- tester sur simulateur avant tout essai sur la calculatrice.
+
+Cette dernière méthode demande des connaissances en programmation et en compilation. Il faut respecter les licences et les conditions de redistribution du projet. Ne pas redistribuer une copie modifiée d'un logiciel si sa licence ou les règles du projet l'interdisent.
+
+▶ 12. INSTALLER DES APPLICATIONS EXTERNES (.NWA)
+──────────────────────────────────────────────────
+
+
+Une application externe est un programme indépendant que l'on ajoute au menu de la calculatrice. Le format utilisé par l'écosystème Epsilon pour ce type d'application est généralement .nwa.
+
+La compatibilité dépend du modèle et de la version du système. Les NumWorks N0120 avec une version suffisamment récente d'Epsilon prennent en charge certaines applications externes. Il faut vérifier la documentation du programme avant l'installation.
+
+Procédure générale avec un fichier .nwa :
+
+▶ 1. TÉLÉCHARGER LE FICHIER .NWA DEPUIS LA PAGE OFFICIELLE OU LE DÉPÔT DU DÉVELOPPEUR.
+────────────────────────────────────────────────────────────────────────
+
+▶ 2. VÉRIFIER QUE L'APPLICATION EST COMPATIBLE AVEC LE MODÈLE ET LE SYSTÈME.
+────────────────────────────────────────────────────────────────────────
+
+▶ 3. BRANCHER LA CALCULATRICE À L'ORDINATEUR AVEC UN CÂBLE USB DE DONNÉES.
+────────────────────────────────────────────────────────────────────────
+
+▶ 4. ALLUMER LA CALCULATRICE ET OUVRIR LA PAGE D'INSTALLATION NUMWORKS PRÉVUE POUR LES APPLICATIONS.
+────────────────────────────────────────────────────────────────────────
+
+▶ 5. CLIQUER SUR CONNECT / CONNECTER.
+───────────────────────────────────────
+
+▶ 6. SÉLECTIONNER LA CALCULATRICE DANS LA FENÊTRE DU NAVIGATEUR.
+──────────────────────────────────────────────────────────────────
+
+▶ 7. CHOISIR LE FICHIER .NWA.
+───────────────────────────────
+
+▶ 8. AJOUTER LES ÉVENTUELS FICHIERS DE DONNÉES DEMANDÉS PAR L'APPLICATION.
+────────────────────────────────────────────────────────────────────────
+
+▶ 9. CLIQUER SUR INSTALL / INSTALLER.
+───────────────────────────────────────
+
+▶ 10. ATTENDRE LA FIN DU TRANSFERT AVANT DE DÉBRANCHER.
+─────────────────────────────────────────────────────────
+
+▶ 11. REVENIR À L'ACCUEIL ET CHERCHER L'APPLICATION, SOUVENT VERS LA FIN DE LA LISTE.
+────────────────────────────────────────────────────────────────────────
+
+
+La page d'installation officielle des applications est accessible depuis le compte NumWorks ou depuis l'outil indiqué dans la documentation de l'application. Certains outils communautaires utilisent également l'installateur NumWorks.
+
+Si une application est trop volumineuse, elle peut nécessiter une méthode ou un espace mémoire supplémentaire. Ne jamais installer un fichier provenant d'une source inconnue.
+
+▶ 13. INSTALLER DES JEUX
+────────────────────────────
+
+
+Il existe plusieurs catégories de jeux pour NumWorks :
+
+A. Jeux Python (.py)
+Ce sont des scripts Python. Ils s'installent comme les autres scripts et utilisent les fonctions disponibles dans l'environnement Python. Ils sont souvent plus simples à installer, mais peuvent être limités par la vitesse, la mémoire et les capacités graphiques.
+
+Installation :
+
+▶ 1. TÉLÉCHARGER LE FICHIER .PY DEPUIS UNE SOURCE FIABLE.
+───────────────────────────────────────────────────────────
+
+▶ 2. L'ENVOYER AVEC LE COMPTE NUMWORKS OU UN OUTIL COMPATIBLE.
+────────────────────────────────────────────────────────────────
+
+▶ 3. OUVRIR PYTHON SUR LA CALCULATRICE.
+─────────────────────────────────────────
+
+▶ 4. SÉLECTIONNER LE JEU DANS LA LISTE.
+─────────────────────────────────────────
+
+▶ 5. LANCER LE SCRIPT.
+────────────────────────────
+
+
+B. Jeux sous forme d'applications externes (.nwa)
+Certains jeux sont distribués comme applications autonomes. Ils s'installent avec l'installateur d'applications décrit dans le chapitre précédent.
+
+C. Émulateurs
+Des applications peuvent émuler d'anciennes consoles ou machines. Un émulateur ne contient pas forcément les jeux : il peut falloir ajouter des fichiers de jeu. Il faut respecter les droits d'auteur et n'utiliser que des fichiers que l'on est autorisé à posséder et utiliser.
+
+Exemples de projets et ressources communautaires :
+- Nwagyu : applications, outils, jeux et émulateurs pour NumWorks.
+- NumWorks Workshop : scripts Python partagés par la communauté.
+- NumGames ou NumPlay : catalogues communautaires de jeux, selon leur compatibilité actuelle.
+
+Un jeu conçu pour une TI, une Casio, un PC ou un téléphone ne peut pas être installé directement sur NumWorks. Il doit être porté ou recompilé pour cette plateforme.
+
+▶ 14. CRÉER SON PROPRE JEU OU SA PROPRE APPLICATION
+─────────────────────────────────────────────────────
+
+
+Méthode simple : créer un jeu Python.
+On peut utiliser :
+- print() et input() pour un jeu textuel ;
+- random pour les événements aléatoires ;
+- kandinsky pour dessiner des pixels ;
+- ion pour lire les touches ;
+- time pour gérer certains délais, si le module le permet.
+
+Exemple de mini-jeu textuel :
+
+    import random
+    secret = random.randint(1, 10)
+    proposition = int(input("Nombre entre 1 et 10 : "))
+if proposition == secret:
+        print("Gagne !")
+else:
+        print("Perdu, le nombre etait", secret)
+
+Pour créer une application externe plus avancée, il faut utiliser les outils de développement adaptés à Epsilon. Le projet officiel Epsilon documente la création d'applications externes, notamment en C/C++. Il faut installer les outils nécessaires, compiler l'application et produire un fichier .nwa.
+
+Le développement d'une application externe demande davantage de connaissances qu'un script Python. Il faut suivre le SDK et les exemples fournis par le projet officiel.
+
+Il existe aussi des solutions communautaires comme l'application Lua de Nwagyu. Elle permet d'exécuter des programmes écrits dans un environnement Lua adapté. Il faut utiliser la version de Lua et les fonctions documentées par cette application : un programme Lua prévu pour un ordinateur ne fonctionnera pas nécessairement tel quel.
+
+▶ 15. LES DIFFÉRENTS FORMATS DE FICHIERS
+──────────────────────────────────────────
+
+
+.py : script Python.
+.nwa : application externe NumWorks.
+.nws : sauvegarde NumWorks, selon le contenu et l'outil utilisé.
+Images : formats acceptés par l'application ou le système de personnalisation concerné.
+Fichiers de données : fichiers supplémentaires parfois nécessaires à une application ou à un émulateur.
+
+Ne pas confondre :
+- installer un script Python ;
+- installer une application externe ;
+- mettre à jour le système ;
+- installer un firmware alternatif.
+
+Ce sont quatre opérations différentes qui n'utilisent pas toujours les mêmes fichiers ni les mêmes outils.
+
+▶ 16. MODE EXAMEN, RESET ET SAUVEGARDE
+────────────────────────────────────────
+
+
+Le mode examen est prévu pour les examens scolaires. Il signale que la calculatrice est en mode examen et peut limiter l'accès à certaines données ou fonctions.
+
+Selon le système et sa version, le mode examen peut supprimer l'historique, les scripts ou les données, et masquer les applications externes. Il faut sauvegarder les éléments importants avant de l'activer.
+
+Un RESET matériel ou logiciel peut réinitialiser la calculatrice et effacer des données. Certaines applications externes sont supprimées lors d'une réinitialisation.
+
+Avant une opération importante :
+
+▶ 1. SAUVEGARDER LES SCRIPTS SUR SON COMPTE OU SUR L'ORDINATEUR ;
+───────────────────────────────────────────────────────────────────
+
+▶ 2. CONSERVER UNE COPIE DES FICHIERS .PY ET .NWS ;
+─────────────────────────────────────────────────────
+
+▶ 3. NOTER LE MODÈLE ET LA VERSION DU SYSTÈME ;
+─────────────────────────────────────────────────
+
+▶ 4. LIRE LES AVERTISSEMENTS DE L'INSTALLATEUR ;
+──────────────────────────────────────────────────
+
+▶ 5. NE PAS LANCER DE RESET SANS RAISON.
+──────────────────────────────────────────
+
+
+▶ 17. PROBLÈMES COURANTS ET SOLUTIONS
+───────────────────────────────────────
+
+
+La calculatrice n'est pas détectée :
+- essayer un câble USB de données ;
+- essayer un autre port USB ;
+- utiliser Chrome ou Edge ;
+- autoriser l'accès USB dans le navigateur ;
+- fermer les autres pages qui utilisent la calculatrice.
+
+Le script ne s'envoie pas :
+- vérifier que le fichier est bien un .py ;
+- vérifier que le compte est connecté ;
+- essayer l'envoi depuis « Mes scripts » ;
+- vérifier que la mémoire n'est pas saturée ;
+- redémarrer le navigateur et refaire la connexion.
+
+Le script affiche une erreur :
+- lire le numéro de ligne indiqué ;
+- vérifier les deux-points, parenthèses et guillemets ;
+- contrôler l'indentation ;
+- vérifier que le module utilisé existe sur NumWorks ;
+- simplifier le programme pour identifier la partie qui bloque.
+
+L'application .nwa ne s'installe pas :
+- vérifier le modèle et la version d'Epsilon ;
+- vérifier que le fichier est bien un .nwa valide ;
+- vérifier la taille et les éventuels fichiers supplémentaires ;
+- essayer Chrome ou Edge à jour ;
+- suivre le guide du développeur.
+
+La calculatrice semble bloquée :
+- patienter si un transfert est en cours ;
+- ne pas retirer le câble pendant une mise à jour ;
+- utiliser les procédures de dépannage officielles avant un reset ;
+- éviter les manipulations de firmware non documentées.
+
+▶ 18. CONSEILS DE SÉCURITÉ
+────────────────────────────
+
+
+- Télécharger les programmes depuis les sites officiels ou les dépôts reconnus.
+- Lire les commentaires et la documentation avant d'installer.
+- Ne jamais installer un firmware destiné à un autre modèle.
+- Ne pas interrompre une mise à jour.
+- Sauvegarder les scripts et les données.
+- Éviter les fichiers exécutables ou archives douteuses.
+- Ne pas communiquer les identifiants de son compte NumWorks.
+- Pour les modifications avancées, lire les licences et les instructions du projet.
+
+▶ 19. SITES ET RESSOURCES UTILES
+──────────────────────────────────
+
+
+Site officiel NumWorks :
+https://www.numworks.com/fr/
+
+Compte NumWorks – scripts et mises à jour :
+https://my.numworks.com/
+
+Manuel officiel de la calculatrice :
+https://www.numworks.com/fr/graphique/manuel/
+
+Application Python et tutoriels :
+https://www.numworks.com/fr/graphique/tutoriels/python/
+
+Premiers pas en Python :
+https://www.numworks.com/fr/graphique/applications/python/premiers-pas/
+
+Dépôt officiel du système Epsilon :
+https://github.com/numworks/epsilon
+
+Documentation des applications externes Epsilon :
+https://github.com/numworks/epsilon/tree/master/epsilon/external_apps
+
+Nwagyu – applications et outils communautaires :
+https://nwagyu.org/
+
+Guide d'installation des applications NWA :
+https://nwagyu-github-io.pages.dev/pages/how-to/
+
+Guide communautaire Upsilon / Omega :
+https://guide.getomega.dev/
+
+Outils NumWorks de l'Université Grenoble Alpes :
+https://xcas.univ-grenoble-alpes.fr/nw/nws.html
+
+▶ 20. RÉSUMÉ : QUELLE MÉTHODE UTILISER ?
+──────────────────────────────────────────
+
+
+Je veux faire un petit programme ou un outil de calcul :
+→ Créer un script Python (.py).
+
+Je veux écrire le code plus facilement sur PC :
+→ Utiliser « Mes scripts » sur my.numworks.com puis « Envoyer sur ma calculatrice ».
+
+Je veux installer un jeu Python :
+→ Télécharger un .py compatible et l'envoyer comme un script.
+
+Je veux installer une application ou un jeu autonome :
+→ Télécharger un .nwa compatible et utiliser l'installateur d'applications.
+
+Je veux ajouter un fond d'écran ou personnaliser l'apparence :
+→ Vérifier les fonctions du système installé, notamment celles proposées par certains systèmes communautaires.
+
+Je veux changer profondément l'interface ou les fonctions du système :
+→ Étudier un firmware alternatif ou le développement Epsilon, en sachant que c'est une opération avancée.
+
+Je veux créer une application complète :
+→ Étudier le développement d'applications externes Epsilon ou une solution communautaire comme Lua.
+
+CONCLUSION
+
+La NumWorks est bien plus qu'une calculatrice de calcul : c'est une calculatrice graphique programmable avec un système d'applications, un environnement Python et un écosystème communautaire. On peut créer ses propres outils, installer certains jeux et programmes et, selon le modèle et le système, ajouter des applications externes ou des personnalisations.
+
+La règle la plus importante est de toujours vérifier le modèle exact, la version du système et le format du fichier avant toute installation. Un script Python, une application externe et un firmware sont des éléments différents et ne s'installent pas de la même manière.
+
+Document de synthèse rédigé à partir de la documentation officielle NumWorks et de ressources communautaires. Les sites et procédures peuvent évoluer : consulter les liens ci-dessus avant toute manipulation.
+
+
+▶ 21. DOSSIER D'ARCHIVES : IDENTIFICATION ET ÉVOLUTION DES MODÈLES
+────────────────────────────────────────────────────────────────────
+
+
+Cette partie traite la NumWorks comme un objet électronique documenté : identification, générations matérielles, architecture interne, composants, contraintes et entretien. Les caractéristiques peuvent varier selon la révision de la carte électronique et le modèle exact.
+
+  21.1. Modèle, référence matérielle et numéro de série : trois notions différentes
+  ····························································
+
+Il ne faut pas confondre :
+- Le nom commercial : NumWorks.
+- La référence de modèle : par exemple N0100, N0110, N0115 ou N0120. Elle identifie une famille matérielle.
+- La révision de carte électronique (PCB) : elle identifie une version de conception de la carte à l'intérieur de la famille.
+- Le numéro de série : identifiant individuel attribué à un appareil précis. Deux calculatrices du même modèle ont normalement des numéros de série différents.
+- La version du logiciel : version d'Epsilon ou d'un système alternatif installée à un moment donné.
+
+Le numéro de série n'est pas un numéro de modèle et ne permet pas, à lui seul, de déduire toutes les caractéristiques électroniques. Il ne faut pas inventer une règle de décodage du numéro de série : NumWorks ne publie pas, dans sa documentation utilisateur, de table universelle permettant de traduire chaque chiffre en date, usine ou révision.
+
+Pour consulter les informations de son appareil :
+
+▶ 1. ALLUMER LA CALCULATRICE.
+───────────────────────────────
+
+▶ 2. OUVRIR PARAMÈTRES.
+────────────────────────────
+
+▶ 3. ALLER DANS « À PROPOS ».
+───────────────────────────────
+
+▶ 4. RELEVER LE MODÈLE, LA VERSION LOGICIELLE ET LE NUMÉRO DE SÉRIE AFFICHÉS, SELON LE MODÈLE ET LA VERSION.
+────────────────────────────────────────────────────────────────────────
+
+▶ 5. COMPARER CES INFORMATIONS À LA RÉFÉRENCE IMPRIMÉE AU DOS.
+────────────────────────────────────────────────────────────────
+
+
+Le numéro de série est un identifiant individuel. Éviter de le publier intégralement sur Internet ou dans une capture d'écran publique. Il peut être demandé par le support technique pour identifier un appareil.
+
+  21.2. Familles matérielles documentées
+  ······································
+
+Les références rencontrées dans la gamme NumWorks graphique comprennent notamment :
+
+N0100
+- Première génération de calculatrice graphique.
+- Microcontrôleur STM32F412, cœur ARM Cortex-M4.
+- Fréquence annoncée historiquement : environ 100 MHz.
+- Architecture de stockage différente des générations suivantes.
+- Port micro-USB.
+- Les limites matérielles de cette génération restreignent les versions logicielles qu'elle peut exécuter.
+
+N0110
+- Génération graphique suivante.
+- Microcontrôleur STM32F730, cœur ARM Cortex-M7.
+- Fréquence de fonctionnement de 216 MHz.
+- Mémoire flash externe en plus de la mémoire interne du microcontrôleur.
+- Port USB-C.
+- Architecture permettant les versions modernes d'Epsilon et certaines applications externes compatibles.
+
+N0115
+- Variante matérielle de la génération STM32F730.
+- Le processeur appartient à la famille STM32F730.
+- La conception et les possibilités de récupération ne sont pas nécessairement identiques à celles d'une N0110.
+- Vérifier la compatibilité exacte des outils de développement et de restauration avant toute manipulation.
+
+N0120
+- Génération graphique plus récente.
+- Microcontrôleur STM32H725, cœur ARM Cortex-M7.
+- Architecture et performances différentes de la N0110/N0115.
+- Port USB-C.
+- Certaines procédures communautaires de déverrouillage, de récupération ou de développement sont propres à cette génération.
+
+ATTENTION : les informations de génération ne remplacent pas la référence imprimée sur la coque. Avant une opération avancée, utiliser le modèle exact, la version du logiciel et, si disponible, la révision PCB. Les noms commerciaux et les caractéristiques peuvent être révisés au cours de la production.
+
+  21.3. Tableau d'identification rapide
+  ·····································
+
+Modèle | Processeur / famille | Connecteur | Remarque principale
+N0100 | STM32F412 / Cortex-M4 | micro-USB | Première génération, limites de mémoire et de compatibilité
+N0110 | STM32F730 / Cortex-M7 | USB-C | Flash externe et interne
+N0115 | STM32F730 / Cortex-M7 | USB-C | Variante matérielle, récupération spécifique
+N0120 | STM32H725 / Cortex-M7 | USB-C | Génération plus récente, procédures propres au modèle
+
+Ce tableau est une synthèse d'identification, pas une fiche de fabrication complète. Les fréquences, mémoires et composants doivent être confirmés dans la documentation correspondant précisément à la carte concernée.
+
+▶ 22. ARCHITECTURE PHYSIQUE : COMMENT LA CALCULATRICE EST CONSTRUITE
+──────────────────────────────────────────────────────────────────────
+
+
+Une NumWorks graphique est composée de plusieurs ensembles physiques :
+
+▶ 1. LA COQUE SUPÉRIEURE ET LA COQUE INFÉRIEURE.
+──────────────────────────────────────────────────
+
+▶ 2. LE CLAVIER À TOUCHES MOBILES.
+────────────────────────────────────
+
+▶ 3. L'ÉCRAN LCD COULEUR.
+────────────────────────────
+
+▶ 4. LA CARTE ÉLECTRONIQUE PRINCIPALE (PCB).
+──────────────────────────────────────────────
+
+▶ 5. LE MICROCONTRÔLEUR, QUI EXÉCUTE LE SYSTÈME.
+──────────────────────────────────────────────────
+
+▶ 6. LES MÉMOIRES NON VOLATILES.
+──────────────────────────────────
+
+▶ 7. LA BATTERIE LITHIUM-POLYMÈRE.
+────────────────────────────────────
+
+▶ 8. LE CIRCUIT DE CHARGE ET DE RÉGULATION D'ALIMENTATION.
+────────────────────────────────────────────────────────────
+
+▶ 9. LE CONNECTEUR USB.
+────────────────────────────
+
+▶ 10. LES COMPOSANTS DE PROTECTION ÉLECTRIQUE.
+────────────────────────────────────────────────
+
+▶ 11. LA LED RGB DE SIGNALISATION.
+────────────────────────────────────
+
+▶ 12. LES ÉLÉMENTS MÉCANIQUES : SUPPORTS, CLIPS, ENTRETOISES ET PROTECTIONS.
+────────────────────────────────────────────────────────────────────────
+
+
+La carte électronique relie les différents sous-ensembles. Les touches sont lues par une matrice de clavier. L'écran reçoit les données graphiques du microcontrôleur. La batterie alimente les circuits par l'intermédiaire de composants de gestion d'énergie.
+
+  22.1. Coque et matériaux
+  ························
+
+La documentation mécanique NumWorks indique que les pièces plastiques de la calculatrice sont réalisées en ABS. La coque est conçue pour maintenir la carte électronique et la batterie, protéger l'écran et guider les touches.
+
+Les pièces mécaniques ont plusieurs fonctions :
+- protéger les composants contre les chocs légers ;
+- maintenir l'écran et la carte en position ;
+- empêcher les touches de se déplacer latéralement ;
+- répartir les efforts lorsque l'utilisateur appuie sur le clavier ;
+- permettre l'assemblage et le maintien de la coque.
+
+La coque n'est pas étanche. L'humidité, la poussière et les liquides peuvent atteindre les composants et provoquer de la corrosion ou des courts-circuits.
+
+  22.2. Écran
+  ············
+
+La calculatrice graphique documentée par NumWorks possède un écran IPS LCD :
+- diagonale : 2,8 pouces (environ 7,1 cm) ;
+- résolution : 320 × 240 pixels ;
+- densité : environ 140 pixels par pouce ;
+- couleurs : jusqu'à 262 144 couleurs annoncées par la fiche technique.
+
+Un écran LCD ne produit pas lui-même sa lumière comme un écran OLED : il utilise un rétroéclairage. L'écran est piloté par un contrôleur d'affichage. Sur la documentation électronique de la génération N0110, le contrôleur cité est le ST7789V.
+
+Contraintes :
+- le verre et les couches de l'écran peuvent être endommagés par une pression excessive ;
+- un choc peut provoquer des lignes, des taches ou une dalle cassée ;
+- le rétroéclairage consomme de l'énergie ;
+- l'écran peut être difficile à lire sous certains angles ou en plein soleil ;
+- une nappe ou une liaison d'écran endommagée peut provoquer un affichage instable.
+
+  22.3. Microcontrôleur (le cerveau)
+  ··································
+
+Le microcontrôleur est le composant central. Il exécute le système Epsilon, lit les touches, réalise les calculs, pilote l'affichage et gère les échanges USB.
+
+Selon la génération :
+- N0100 : STM32F412 ;
+- N0110 et N0115 : STM32F730 ;
+- N0120 : STM32H725.
+
+La famille STM32 est fabriquée par STMicroelectronics. Il s'agit de microcontrôleurs intégrant un processeur, des périphériques et de la mémoire interne.
+
+Contraintes :
+- puissance de calcul limitée par rapport à un ordinateur ;
+- mémoire vive très limitée ;
+- consommation électrique à maîtriser ;
+- température et tension d'alimentation à respecter ;
+- compatibilité logicielle liée au modèle et à la révision matérielle.
+
+  22.4. Mémoire vive et mémoire flash
+  ···································
+
+La mémoire vive (RAM/SRAM) sert à conserver temporairement les données utilisées pendant l'exécution : variables, calculs, affichage et données des applications. Son contenu disparaît lorsque l'alimentation est coupée.
+
+La mémoire flash conserve les données sans alimentation. Elle peut contenir le logiciel système, le programme de démarrage et des données persistantes.
+
+Sur les N0110/N0115, la documentation technique décrit notamment une mémoire flash externe AT25SF641 de 64 Mbit, soit 8 Mo, reliée au microcontrôleur par un bus Quad-SPI. La documentation officielle des composants cite également 256 Ko de SRAM pour le STM32F730.
+
+Ne pas confondre :
+- capacité de stockage flash ;
+- mémoire vive ;
+- mémoire disponible pour les scripts ;
+- espace disponible pour les applications externes.
+
+Une partie de la mémoire est réservée au système et à son fonctionnement. La mémoire théorique totale n'est donc pas entièrement disponible pour l'utilisateur.
+
+  22.5. Batterie et alimentation
+  ······························
+
+La calculatrice graphique décrite dans la fiche technique NumWorks possède une batterie lithium-polymère rechargeable intégrée. La fiche technique actuelle indique une capacité de 1450 mAh pour le modèle graphique concerné.
+
+La batterie fournit une tension qui varie au cours de la décharge. Les circuits de régulation fournissent ensuite les tensions nécessaires au microcontrôleur, à l'écran et aux autres composants.
+
+La documentation des composants de la génération N0110 cite notamment :
+- RT9078 : régulateur basse chute pour l'alimentation logique ;
+- RT9526A : circuit de charge de la batterie par USB.
+
+Contraintes :
+- une batterie lithium-polymère vieillit même sans utilisation ;
+- la chaleur accélère son vieillissement ;
+- une décharge profonde ou une surcharge anormale peut l'endommager ;
+- une batterie gonflée est dangereuse et doit conduire à arrêter l'utilisation ;
+- ne pas percer, plier, écraser ou chauffer la batterie.
+
+Ne pas ouvrir la calculatrice pour remplacer la batterie sans compétence adaptée. Une intervention peut endommager la cellule ou les nappes et compromettre la garantie.
+
+  22.6. Connecteur USB et protection
+  ··································
+
+Le connecteur sert à la recharge et aux échanges de données. Il varie selon la génération :
+- N0100 : micro-USB ;
+- N0110, N0115 et N0120 : USB-C.
+
+Sur les cartes documentées, un composant de protection ESD, par exemple USBLC6-2SC6, protège les lignes USB contre certaines décharges électrostatiques.
+
+Contraintes :
+- ne pas tirer sur le câble ;
+- ne pas insérer un connecteur de travers ;
+- ne pas forcer si la prise résiste ;
+- éviter poussière, humidité et objets métalliques dans le port ;
+- un câble uniquement prévu pour la charge peut ne pas permettre les transferts de données ;
+- une prise dessoudée ou arrachée peut nécessiter une réparation électronique spécialisée.
+
+  22.7. LED RGB
+  ·············
+
+La LED RGB peut produire différentes couleurs en combinant rouge, vert et bleu. Elle sert à signaler certains états de la calculatrice, notamment le mode examen ou certaines opérations selon le système.
+
+La documentation de la génération N0110 cite la LED LTST-S310F2KT. Il s'agit d'un composant à trois couleurs dans un même boîtier.
+
+La couleur observée ne doit pas être interprétée sans tenir compte du système et de la situation : une même couleur peut avoir des significations différentes selon le contexte.
+
+  22.8. Clavier et matrice de touches
+  ···································
+
+Le clavier est constitué de touches physiques et de contacts électriques organisés en matrice. Le microcontrôleur balaie les lignes et les colonnes pour détecter la touche pressée.
+
+Cette organisation réduit le nombre de connexions nécessaires. Les touches ne sont donc pas forcément reliées chacune par un fil indépendant au microcontrôleur.
+
+Contraintes :
+- poussière ou liquide sous les touches ;
+- usure mécanique ;
+- contact qui rebondit ou ne répond plus ;
+- touche bloquée par un corps étranger ;
+- membrane ou circuit imprimé endommagé.
+
+Ne pas verser de liquide nettoyant dans le clavier.
+
+▶ 23. CONTRAINTES PHYSIQUES ET LIMITES D'UTILISATION
+──────────────────────────────────────────────────────
+
+
+La NumWorks est un appareil embarqué à faible consommation. Ses composants sont dimensionnés pour les calculs scolaires et non pour des tâches lourdes comme un PC.
+
+Limites de calcul :
+- fréquence du processeur et architecture variables selon le modèle ;
+- mémoire vive limitée ;
+- stockage flash limité ;
+- absence de système de refroidissement actif ;
+- performances dépendantes du langage et des bibliothèques ;
+- temps d'exécution qui peut devenir important pour les boucles et les calculs complexes.
+
+Limites graphiques :
+- résolution fixe de l'écran ;
+- nombre de couleurs et vitesse d'affichage définis par le matériel ;
+- mémoire disponible pour les images limitée ;
+- animations complexes susceptibles de ralentir.
+
+Limites énergétiques :
+- batterie de capacité limitée ;
+- écran rétroéclairé consommateur d'énergie ;
+- autonomie qui dépend de la luminosité et de l'utilisation ;
+- vieillissement naturel de la batterie.
+
+Limites environnementales :
+- ne pas exposer à l'eau ;
+- éviter les environnements très humides ;
+- éviter les températures extrêmes ;
+- éviter les chocs et les fortes pressions sur l'écran ;
+- ne pas laisser la calculatrice dans une voiture très chaude ou au soleil.
+
+▶ 24. ENTRETIEN, DIAGNOSTIC ET DURÉE DE VIE
+─────────────────────────────────────────────
+
+
+Entretien courant :
+- nettoyer la coque avec un chiffon doux et sec ;
+- utiliser un chiffon légèrement humide uniquement sur la coque, sans laisser pénétrer de liquide ;
+- ne pas pulvériser de produit directement sur l'appareil ;
+- conserver le port USB propre ;
+- transporter la calculatrice dans une housse ;
+- éviter de poser des objets lourds sur l'écran.
+
+Diagnostic simple :
+- écran noir : vérifier la charge, le câble et les procédures officielles de redémarrage ;
+- touches inactives : vérifier qu'aucune touche n'est bloquée ;
+- batterie qui se vide vite : vérifier la luminosité, l'état du système et les recommandations du support ;
+- USB non détecté : tester un câble de données et un autre port ;
+- affichage avec lignes : suspecter l'écran ou sa liaison, sans ouvrir l'appareil.
+
+Une batterie est un consommable. Sa capacité diminue avec le temps et le nombre de cycles. Une autonomie réduite ne signifie pas nécessairement que le processeur ou la carte électronique est défectueux.
+
+En cas de batterie gonflée, d'odeur inhabituelle, de chauffe anormale ou de connecteur endommagé, arrêter l'utilisation et demander conseil au support ou à un réparateur qualifié.
+
+▶ 25. MODE EXAMEN ET CONSÉQUENCES SUR LE MATÉRIEL
+───────────────────────────────────────────────────
+
+
+Le mode examen est avant tout une fonction logicielle et réglementaire, pas un composant électronique séparé.
+
+Sur la calculatrice graphique, l'activation du mode examen supprime des données utilisateur, notamment l'historique, les variables, les fonctions enregistrées, les séries statistiques et les scripts Python. Une LED clignotante et un indicateur à l'écran signalent le mode examen selon la version.
+
+La sortie du mode examen se fait en connectant la calculatrice à un ordinateur par USB et en validant la demande affichée, selon les règles de la version installée.
+
+Il faut sauvegarder les scripts avant l'activation : le mode examen n'est pas une méthode de sauvegarde.
+
+▶ 26. RÉVISIONS MATÉRIELLES, RÉPARABILITÉ ET DOCUMENTATION
+────────────────────────────────────────────────────────────
+
+
+Une même référence de calculatrice peut connaître des révisions de carte électronique au fil de la production. Les composants, leur disposition ou les procédures de récupération peuvent changer.
+
+Pour documenter précisément un appareil, consigner :
+- modèle inscrit au dos ;
+- numéro de série (à conserver en privé) ;
+- version logicielle ;
+- révision de PCB si elle est disponible ;
+- type de connecteur ;
+- état de la batterie ;
+- état de l'écran et du clavier ;
+- date d'achat et preuve d'achat, conservées séparément.
+
+La documentation mécanique et électrique de NumWorks est particulièrement utile pour comprendre l'objet. Elle contient des informations sur la coque, les pièces, les schémas, les composants et leurs fiches techniques.
+
+La présence de schémas ou de code source public ne signifie pas que toutes les réparations sont simples. Les composants sont souvent montés en surface (CMS), très petits, et nécessitent du matériel de soudage et des compétences adaptées.
+
+▶ 27. RESSOURCES TECHNIQUES ET SOURCES D'ARCHIVES
+───────────────────────────────────────────────────
+
+
+Fiche officielle des caractéristiques de la calculatrice graphique :
+https://www.numworks.com/fr/graphique/specs/
+
+Documentation officielle des composants et fiches techniques :
+https://www.numworks.com/engineering/hardware/electrical/parts/
+
+Schémas électroniques officiels :
+https://www.numworks.com/engineering/hardware/electrical/schematics/
+
+Conception mécanique officielle :
+https://www.numworks.com/engineering/hardware/mechanical/
+
+Manuel officiel – paramètres et numéro de série :
+https://www.numworks.com/fr/graphique/manuel/parametres/
+
+Manuel PDF officiel :
+https://www.numworks.com/fr/ressources/manuel/book.pdf
+
+Conformité, sécurité et environnement :
+https://www.numworks.com/fr/graphique/manuel/compliance/
+
+Assistance officielle – câble USB :
+https://www.numworks.com/support/handheld/cable/
+
+Guide communautaire – architecture interne et générations :
+https://guide.getomega.dev/fr/docs/how-does-it-work/
+
+Ces sources n'ont pas toutes le même statut :
+- les pages NumWorks sont les références prioritaires pour les spécifications officielles ;
+- les fiches techniques des fabricants de composants donnent les limites électriques détaillées ;
+- les guides communautaires sont utiles pour comprendre l'architecture et les différences entre révisions, mais doivent être recoupés avant une manipulation.
+
+▶ 28. FICHE D'IDENTITÉ À REMPLIR POUR UNE CALCULATRICE PRÉCISE
+────────────────────────────────────────────────────────────────
+
+
+Nom du produit : NumWorks
+Type : calculatrice graphique programmable
+Modèle inscrit au dos : __________________________
+Numéro de série : ________________________________
+Version du système : _____________________________
+Révision de carte (si connue) : ___________________
+Type de port USB : _______________________________
+État de l'écran : _________________________________
+État du clavier : _________________________________
+État de la batterie : _____________________________
+Date d'achat : ___________________________________
+Accessoires présents : ___________________________
+Observations / réparations : ______________________
+
+Ne pas publier la fiche avec le numéro de série complet. Cette fiche sert à constituer l'historique technique d'un appareil individuel.
+
+NOTE DE RIGUEUR DOCUMENTAIRE
+
+Les caractéristiques de la NumWorks ne sont pas identiques sur toutes les générations. Les chiffres de la fiche technique actuelle (par exemple écran, batterie et dimensions) ne doivent pas être appliqués automatiquement à chaque ancien modèle.
+
+La documentation officielle de composants consultée décrit notamment une carte N0110 équipée du STM32F730, de la mémoire AT25SF641, du contrôleur d'écran ST7789V, du régulateur RT9078, du chargeur RT9526A, de la LED RGB LTST-S310F2KT et de la protection USB USBLC6-2SC6. Ces références constituent une nomenclature documentée pour cette génération ; elles ne doivent pas être présentées comme la liste garantie de toutes les cartes N0100, N0115 ou N0120.
+
+Pour toute réparation, modification de firmware ou analyse de carte, identifier d'abord la révision exacte. Une photo de la carte, si l'appareil a été ouvert par une personne compétente, peut aider à identifier les composants, mais l'ouverture n'est pas recommandée à l'utilisateur ordinaire.
+
+
+▶ 29. RÉPERTOIRE INTERNET ÉTENDU : ARCHIVES ET RESSOURCES
+───────────────────────────────────────────────────────────
+
+
+Cette section rassemble des liens pour étudier la NumWorks au-delà de son utilisation scolaire. Les liens sont classés par fiabilité et par usage. Les documentations officielles doivent être consultées en premier ; les ressources communautaires servent à compléter l'analyse.
+
+  29.1. Sites officiels NumWorks
+  ······························
+
+Site principal :
+https://www.numworks.com/fr/
+
+Page de la calculatrice graphique :
+https://www.numworks.com/fr/graphique/
+
+Caractéristiques techniques :
+https://www.numworks.com/fr/graphique/specs/
+
+Manuel d'utilisation en français :
+https://www.numworks.com/fr/graphique/manuel/
+
+Manuel PDF :
+https://www.numworks.com/fr/ressources/manuel/book.pdf
+
+Compte utilisateur, scripts et outils :
+https://my.numworks.com/
+
+Simulateur officiel dans le navigateur :
+https://www.numworks.com/simulator/
+
+Assistance officielle :
+https://www.numworks.com/fr/support/
+
+Ces pages sont les références à privilégier pour les fonctions officielles, les caractéristiques publiées, les procédures de mise à jour et les informations destinées aux utilisateurs.
+
+  29.2. Archives d'ingénierie matérielle officielles
+  ··················································
+
+Portail d'ingénierie :
+https://www.numworks.com/engineering/
+
+Architecture matérielle :
+https://www.numworks.com/engineering/hardware/
+
+Ingénierie électronique :
+https://www.numworks.com/engineering/hardware/electrical/
+
+Nomenclature des composants et fiches techniques :
+https://www.numworks.com/engineering/hardware/electrical/parts/
+
+Schémas électroniques :
+https://www.numworks.com/engineering/hardware/electrical/schematics/
+
+Conception mécanique et pièces de coque :
+https://www.numworks.com/engineering/hardware/mechanical/
+
+Ingénierie logicielle :
+https://www.numworks.com/engineering/software/
+
+Ces ressources permettent de retrouver des schémas, des références de composants, des informations sur la carte électronique, la conception de la coque et les choix techniques du constructeur. Attention : certaines pages de conception décrivent une génération précise, notamment la N0110 ; elles ne constituent pas automatiquement la nomenclature de toutes les générations.
+
+  29.3. Code source complet du système Epsilon
+  ············································
+
+Dépôt officiel GitHub :
+https://github.com/numworks/epsilon
+
+Documentation d'architecture :
+https://github.com/numworks/epsilon/blob/master/epsilon/docs/README.md
+
+Dossier des applications internes :
+https://github.com/numworks/epsilon/tree/master/apps
+
+Couche d'abstraction matérielle Ion :
+https://github.com/numworks/epsilon/tree/master/ion
+
+Moteur graphique Kandinsky :
+https://github.com/numworks/epsilon/tree/master/kandinsky
+
+Bibliothèque d'interface Escher :
+https://github.com/numworks/epsilon/tree/master/escher
+
+Moteur mathématique Poincare :
+https://github.com/numworks/epsilon/tree/master/poincare
+
+Applications externes :
+https://github.com/numworks/epsilon/tree/master/epsilon/external_apps
+
+Documentation pour compiler Epsilon :
+https://github.com/numworks/epsilon/tree/master/epsilon/docs/build
+
+Le dépôt Epsilon contient le code source du système d'exploitation et de ses applications. Il ne s'agit pas d'un unique fichier contenant toute l'interface. Le programme est réparti dans de nombreux fichiers C et C++, organisés en bibliothèques et modules.
+
+Comprendre les cinq grandes parties :
+- Ion : dialogue avec le matériel (touches, écran, batterie, LED, USB et autres fonctions matérielles).
+- Kandinsky : fonctions de dessin et rendu graphique.
+- Escher : composants d'interface, menus, fenêtres, boutons, listes et navigation.
+- Poincare : analyse et calcul des expressions mathématiques.
+- Apps : applications visibles dans le menu de la calculatrice.
+
+Pour retrouver le code d'un écran précis, rechercher le nom de l'application dans le dossier apps, puis repérer ses classes de vue, de contrôleur et ses composants Escher. Pour comprendre une touche, commencer dans Ion. Pour comprendre un dessin, suivre les appels vers Kandinsky.
+
+Le dépôt public permet de consulter les sources et l'historique des modifications. Les conditions de réutilisation et de redistribution doivent être lues dans les fichiers de licence du dépôt. Le fait qu'un dépôt soit consultable ne signifie pas que tous ses éléments peuvent être réutilisés sans condition.
+
+  29.4. Numéros de série, modèle, révision de carte et identifiants
+  ····························································
+
+Le numéro de série :
+- identifie un exemplaire individuel ;
+- est consultable dans Paramètres > À propos, selon la version ;
+- peut aussi apparaître dans certains outils officiels de connexion ;
+- n'est pas la référence du modèle ;
+- n'est pas le numéro de révision du circuit imprimé.
+
+Le modèle :
+- N0100, N0110, N0115 ou N0120 ;
+- est une référence de famille matérielle ;
+- se trouve généralement sur l'étiquette ou l'inscription au dos de l'appareil et peut être affiché par certains outils.
+
+La révision PCB :
+- est un numéro imprimé sur la carte électronique ;
+- décrit une révision de conception ou de fabrication de la carte ;
+- peut être importante pour des opérations techniques avancées ;
+- n'est pas le numéro de série de la calculatrice.
+
+La version logicielle :
+- indique la version d'Epsilon ou du firmware installé ;
+- peut changer sans que le matériel change ;
+- ne permet pas à elle seule de connaître la révision PCB.
+
+Il n'existe pas dans la documentation utilisateur officielle consultée de table publique universelle permettant de décoder chaque caractère du numéro de série en date de fabrication, usine, lot ou révision. Un numéro de série peut ressembler à une longue suite alphanumérique, mais il ne faut pas en déduire une signification sans documentation constructeur.
+
+Pour un dossier d'archives, noter séparément :
+
+▶ 1. MODÈLE ;
+────────────────────────────
+
+▶ 2. NUMÉRO DE SÉRIE (PRIVÉ) ;
+────────────────────────────────
+
+▶ 3. VERSION DU LOGICIEL ;
+────────────────────────────
+
+▶ 4. NUMÉRO DE PCB ;
+────────────────────────────
+
+▶ 5. DATE D'ACHAT OU DE PREMIÈRE MISE EN SERVICE ;
+────────────────────────────────────────────────────
+
+▶ 6. PHOTOS DE L'ÉTIQUETTE ET DE L'APPAREIL.
+──────────────────────────────────────────────
+
+
+Ne pas publier le numéro de série complet dans un forum ou une capture d'écran publique. Pour demander de l'aide, masquer une partie de l'identifiant.
+
+  29.5. Références de composants électroniques et désignateurs sur la carte
+  ····························································
+
+Les références suivantes sont documentées par NumWorks pour la carte décrite sur sa page de composants :
+- STM32F730V8T6 : microcontrôleur, cœur Cortex-M7 à 216 MHz, SRAM intégrée ;
+- AT25SF641 : mémoire flash externe de 64 Mbit ;
+- ST7789V : contrôleur d'affichage LCD ;
+- RT9078 : régulateur de tension logique ;
+- RT9526A : circuit de charge de la batterie ;
+- LTST-S310F2KT : LED RGB ;
+- USBLC6-2SC6 : protection contre les décharges électrostatiques sur l'USB.
+
+Attention : cette liste ne doit pas être attribuée à toutes les versions de carte. La N0100, la N0115 et la N0120 ont des architectures ou des composants qui peuvent différer.
+
+Sur un schéma électronique, les lettres placées devant un numéro indiquent souvent le type de composant :
+- U : circuit intégré ;
+- R : résistance ;
+- C : condensateur ;
+- Q : transistor ;
+- D : diode ;
+- X : quartz ou oscillateur ;
+- J : connecteur ;
+- K : point de test, selon la convention du schéma.
+
+Exemples de désignateurs observés sur une révision de N0110 documentée par la communauté :
+- U1 : microcontrôleur ;
+- U4 : mémoire flash ;
+- J1 : connecteur de nappe écran ;
+- J2 : connecteur USB ;
+- J3 : connecteur de batterie ;
+- J4 : connecteur de débogage ;
+- X1 : oscillateur ;
+- D1 : LED ;
+- R17/R18 et C24 : ajouts signalés sur une révision ultérieure.
+
+Ces désignateurs dépendent du schéma et de la révision. Ne pas supposer que U4 est toujours la flash ou que J2 est toujours l'USB sur toutes les cartes.
+
+  29.6. Comprendre les emplacements A et B (Slot A / Slot B)
+  ··························································
+
+Les mots « Slot A » et « Slot B » sont utilisés dans certains environnements de démarrage et firmwares communautaires. Ils ne désignent pas deux connecteurs physiques accessibles à l'utilisateur. Ce sont des emplacements logiques de stockage dans la mémoire flash externe de certaines générations.
+
+Première distinction : N0100
+- La N0100 utilise une architecture à flash interne au microcontrôleur pour le stockage du système.
+- Elle ne possède pas la même organisation flash interne + flash externe que les N0110/N0115/N0120.
+- Il ne faut donc pas lui appliquer automatiquement les explications de slots A/B des générations plus récentes.
+
+Deuxième distinction : N0110, N0115 et N0120
+- Ces générations possèdent une mémoire flash interne au microcontrôleur et une mémoire flash externe.
+- La flash interne contient le code de démarrage (bootloader) et des éléments nécessaires au lancement.
+- La flash externe contient le firmware et, selon le système, des applications ou données.
+- Certains bootloaders personnalisés organisent la flash externe en plusieurs emplacements de firmware.
+
+À quoi servent A et B ?
+Dans un système à double emplacement, les deux zones peuvent conserver deux images de firmware distinctes. Le bootloader peut proposer de démarrer l'une ou l'autre. Cela permet par exemple de conserver un système de référence dans un emplacement et de tester un autre système dans le second.
+
+Mais attention :
+- le contenu exact de A et B dépend du bootloader installé ;
+- les tailles et adresses des partitions ne sont pas universelles ;
+- les appellations Slot A, Slot B, Slot 1, Slot 2 ou Slot 3 ne sont pas nécessairement interchangeables ;
+- un système multi-boot particulier peut employer sa propre organisation ;
+- une mise à jour officielle peut modifier le bootloader ou les possibilités de démarrage ;
+- certains firmwares communautaires exigent un modèle, une révision PCB et un état de déverrouillage précis.
+
+Différence entre flash interne et flash externe :
+- flash interne : mémoire intégrée au microcontrôleur ; elle peut contenir le bootloader qui décide quel firmware a le droit de démarrer ;
+- flash externe : puce mémoire séparée ; elle contient le firmware utilisateur et peut être divisée en plusieurs zones ;
+- slot A/B : subdivisions logiques éventuelles de la flash externe, définies par le bootloader ou le firmware.
+
+Schéma conceptuel simplifié (ne représente pas des adresses mémoire réelles) :
+
+    N0110 / N0115 / N0120
+    ┌────────────────────────────────────┐
+    │ Microcontrôleur STM32              │
+    │                                    │
+    │ Flash interne                      │
+    │  └── Bootloader / démarrage        │
+    └────────────────────────────────────┘
+                     │
+                     │ bus mémoire
+                     ▼
+    ┌────────────────────────────────────┐
+    │ Puce Flash externe                 │
+    │                                    │
+    │  ┌──────────────────────────────┐  │
+    │  │ Slot A : firmware / système  │  │
+    │  └──────────────────────────────┘  │
+    │  ┌──────────────────────────────┐  │
+    │  │ Slot B : autre firmware      │  │
+    │  └──────────────────────────────┘  │
+    │                                    │
+    │  Autres zones selon le système    │
+    └────────────────────────────────────┘
+
+Ce dessin est volontairement générique. Il ne donne ni les adresses, ni la taille, ni le format des partitions d'un modèle particulier. Il ne faut pas écrire dans la mémoire à partir de ce schéma.
+
+Un exemple différent : le multi-boot KhiCAS
+Certaines documentations KhiCAS décrivent un fonctionnement multi-boot avec des emplacements numérotés, notamment slot 1 et slot 2. Elles précisent également que certains emplacements ou firmwares ne sont pas compatibles entre eux. Cela montre pourquoi il faut toujours lire la documentation du bootloader utilisé et ne pas traduire automatiquement « slot 1 » par « slot A ».
+
+Avant toute manipulation :
+
+▶ 1. IDENTIFIER LE MODÈLE EXACT ;
+───────────────────────────────────
+
+▶ 2. RELEVER LA VERSION EPSILON ;
+───────────────────────────────────
+
+▶ 3. RELEVER LA RÉVISION PCB SI LA PROCÉDURE LE DEMANDE ;
+───────────────────────────────────────────────────────────
+
+▶ 4. IDENTIFIER LE BOOTLOADER ACTUELLEMENT INSTALLÉ ;
+───────────────────────────────────────────────────────
+
+▶ 5. SAUVEGARDER LES DONNÉES ;
+────────────────────────────────
+
+▶ 6. LIRE LA PROCÉDURE SPÉCIFIQUE AU PROJET ;
+───────────────────────────────────────────────
+
+▶ 7. NE JAMAIS FLASHER UNE ADRESSE MÉMOIRE TROUVÉE DANS UN TUTORIEL D'UN AUTRE MODÈLE.
+────────────────────────────────────────────────────────────────────────
+
+
+  29.7. Projets communautaires et outils spécialisés
+  ··················································
+
+Guide Upsilon / Omega en français :
+https://guide.getomega.dev/fr/
+
+Explication de l'architecture et du démarrage :
+https://guide.getomega.dev/fr/docs/how-does-it-work/
+
+Dépôt Omega :
+https://github.com/Omega-Numworks/Omega
+
+Dépôt Phi (rechercher le projet de bootloader et sa documentation) :
+https://github.com/Omega-Numworks
+
+KhiCAS / XCAS pour NumWorks :
+https://xcas.univ-grenoble-alpes.fr/nw/nws.html
+
+Documentation KhiCAS pour N0110, N0115 et N0120 :
+https://www-fourier.univ-grenoble-alpes.fr/~parisse/numworks/khicasnw.html
+
+Nwagyu – Lua et applications communautaires :
+https://nwagyu.org/
+
+TI-Planet – actualités, analyses matérielles et communauté :
+https://tiplanet.org/forum/
+
+TI-Planet – analyse de révision N0110 3.43 :
+https://tiplanet.org/forum/viewtopic.php?p=265107
+
+TI-Planet – archive des actualités NumWorks :
+https://tiplanet.org/forum/
+
+Les ressources communautaires peuvent documenter des manipulations avancées qui ne sont pas couvertes par le support officiel. Elles peuvent aussi concerner des versions anciennes. Lire les dates, les modèles ciblés et les retours d'expérience avant de suivre une procédure.
+
+  29.8. Développement d'applications externes
+  ···········································
+
+Documentation officielle :
+https://github.com/numworks/epsilon/tree/master/epsilon/external_apps
+
+Exemples d'applications :
+- sample_c : exemple en C ;
+- sample_cpp : exemple en C++ ;
+- sample_rust : exemple en Rust ;
+- rpn_cpp : moteur RPN expérimental.
+
+Le format .nwa désigne une application externe NumWorks. Le code source permet de construire l'application ; le fichier .nwa est le paquet installé sur la calculatrice. Ce n'est pas la même chose qu'un script Python .py.
+
+  29.9. Comment archiver correctement les informations trouvées
+  ····························································
+
+Pour chaque page Internet ajoutée au dossier :
+- noter le titre de la page ;
+- noter l'auteur ou l'organisme ;
+- noter la date de publication ou de consultation si elle est visible ;
+- conserver l'adresse complète ;
+- noter les modèles concernés ;
+- distinguer information officielle et analyse communautaire ;
+- conserver une copie PDF ou une capture si la page est importante et que les conditions d'utilisation le permettent.
+
+Une documentation en ligne peut changer ou disparaître. Pour une archive historique, conserver la date de consultation et, si nécessaire, une copie personnelle à usage documentaire en respectant les droits d'auteur.
+
+▶ 30. GLOSSAIRE TECHNIQUE
+────────────────────────────
+
+
+ABS : plastique utilisé pour les pièces de coque.
+ARM Cortex-M : famille de cœurs de processeur pour systèmes embarqués.
+Bootloader : petit programme exécuté au démarrage qui prépare ou vérifie le lancement du système.
+Cortex-M4 / Cortex-M7 : architectures de processeur embarqué.
+DFU : Device Firmware Upgrade, mode de transfert de firmware via USB.
+Epsilon : système d'exploitation officiel NumWorks.
+Escher : bibliothèque de composants d'interface graphique.
+Flash : mémoire non volatile qui conserve son contenu sans alimentation.
+Firmware : logiciel système exécuté par la calculatrice.
+Ion : couche logicielle qui donne accès aux fonctions matérielles.
+Kandinsky : moteur de dessin de l'interface.
+MCU : microcontrôleur, composant qui exécute le programme principal.
+PCB : circuit imprimé sur lequel les composants sont soudés.
+Poincare : moteur d'analyse et de calcul mathématique.
+RAM / SRAM : mémoire vive utilisée pendant l'exécution.
+Révision PCB : version de conception du circuit imprimé.
+Slot : zone logique de stockage définie par un système ou un bootloader.
+USB-C / micro-USB : types de connecteurs physiques.
+NWA : format d'application externe NumWorks.
+NWS : format de sauvegarde NumWorks utilisé par certains outils.
+PY : fichier de script Python.
+
+▶ 31. RECTIFICATION ET PRÉCISION DES INFORMATIONS D'ARCHIVES
+──────────────────────────────────────────────────────────────
+
+
+Les informations sur les numéros de série et les slots doivent être traitées avec prudence.
+
+Numéro de série :
+Le numéro de série permet d'identifier un appareil, mais les pages publiques consultées ne fournissent pas de table officielle permettant de décoder universellement sa date, son usine ou sa révision. Le numéro PCB et le numéro de série sont deux informations différentes.
+
+Code source :
+Le système Epsilon complet est disponible dans le dépôt public numworks/epsilon, mais il est réparti dans de nombreux fichiers C/C++. Il n'existe pas un seul « script de l'interface » prêt à copier dans la calculatrice. Pour étudier l'interface, consulter Escher, Kandinsky et les dossiers des applications.
+
+Slots A et B :
+Les deux emplacements sont une organisation possible de la mémoire flash externe sur certains bootloaders communautaires, et non une caractéristique universelle identique sur toutes les NumWorks. Il faut identifier le bootloader et le modèle avant de conclure à la fonction d'un slot.
+
+Composants :
+Les références STM32F730V8T6, AT25SF641, ST7789V, RT9078, RT9526A, LTST-S310F2KT et USBLC6-2SC6 sont publiées dans la nomenclature officielle de la génération décrite par NumWorks. Elles ne constituent pas une nomenclature garantie pour chaque modèle et chaque révision.
+
+FIN DU DOSSIER D'ARCHIVES ÉTENDU
